@@ -4,11 +4,12 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "api": "bun oast m -c ./oas-tsd.config"
+    "api": "bun oasts m -c ./oas-tsd.config"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "oas-tsd": "^1.0.0"
+    "oas-tsd": "^1.0.0",
+    "print": "^1.2.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
